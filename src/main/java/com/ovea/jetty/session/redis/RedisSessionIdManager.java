@@ -25,6 +25,7 @@ import redis.clients.jedis.TransactionBlock;
 import redis.clients.jedis.exceptions.JedisException;
 
 import javax.naming.InitialContext;
+import javax.servlet.http.HttpServletRequest;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -121,4 +122,8 @@ public final class RedisSessionIdManager extends SessionIdManagerSkeleton {
         return expired;
     }
 
+    @Override
+    public void renewSessionId(final String s, final String s2, final HttpServletRequest httpServletRequest) {
+
+    }
 }
