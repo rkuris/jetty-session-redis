@@ -164,6 +164,7 @@ The latest release (>= 2.1.ga) must be used with at least these dependencies:
 * redis.clients:jedis:2.2.1
 * commons-pool:commons-pool:1.5.6
 
+
 ## Authors and help
 
 * <strong>Mathieu Carbou</strong> [mail](mailto:mathieu.carbou@gmail.com) | [blog](http://blog.mycila.com/) | [website](http://www.mycila.com/)
