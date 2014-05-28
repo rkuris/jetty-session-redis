@@ -125,6 +125,7 @@
                         <exclude>**/logging.properties</exclude>
                         <exclude>**/*.js</exclude>
                         <exclude>**/*.swf</exclude>
+                        <exclude>**/*</exclude>
                     </excludes>
                 </configuration>
             </plugin>
